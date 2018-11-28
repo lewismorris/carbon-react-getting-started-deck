@@ -6,7 +6,8 @@
   "author": "Lewis Morris <lewis@lewismorris.co.uk>",
   "private": true,
   "scripts": {
-    "start": "mdx-deck deck.mdx"
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
   },
   "dependencies": {
     "mdx-deck": "^1.8.1"

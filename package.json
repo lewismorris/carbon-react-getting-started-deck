@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx"
+    "build": "mdx-deck build --no-html deck.mdx"
   },
   "dependencies": {
     "mdx-deck": "^1.8.1"

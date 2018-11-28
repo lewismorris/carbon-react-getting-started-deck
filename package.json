@@ -1,0 +1,18 @@
+{
+  "name": "react-mdx-deck",
+  "version": "1.0.0",
+  "description": "React 101 Slideshow",
+  "main": "deck.mdx",
+  "author": "Lewis Morris <lewis@lewismorris.co.uk>",
+  "private": true,
+  "scripts": {
+    "start": "mdx-deck deck.mdx"
+  },
+  "dependencies": {
+    "mdx-deck": "^1.8.1"
+  },
+  "devDependencies": {
+    "mdx-deck-code-surfer": "^0.5.3",
+    "raw-loader": "^0.5.1"
+  }
+}

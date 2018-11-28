@@ -1,0 +1,172 @@
+export { dark as theme } from "mdx-deck/themes";
+
+import { Head, Appear } from "mdx-deck";
+import { CodeSurfer } from "mdx-deck-code-surfer";
+
+<Head>
+  <title>React - Getting Started</title>
+</Head>
+
+# React
+
+#### Getting Started and how we use React at Carbon
+
+---
+
+## History
+
+<ul style={{ textAlign: "left" }}>
+  <Appear>
+    <li>Created by Facebook</li>
+    <li>First used by Facebook in 2011</li>
+    <li>Then used by Instagram in 2012</li>
+    <li>Open-Sourced on Github in 2013</li>
+    <li>Current has over 115k GitHub Stars</li>
+    <li>Over 3.3m weekly downloads on npm</li>
+  </Appear>
+</ul>
+
+---
+
+# Getting Started
+
+---
+
+<CodeSurfer
+  title="Hello World Example"
+  code={require("!raw-loader!./components/HelloWorldExample.jsx")}
+  lang="javascript"
+  showNumbers
+  steps={[
+    { range: [1, 14] },
+    { lines: [1] },
+    { range: [3, 11] },
+    { lines: [3] },
+    { range: [4, 10] },
+    { lines: [13] }
+  ]}
+/>
+
+---
+
+<CodeSurfer
+  title="Render to the DOM"
+  code={require("!raw-loader!./components/RenderingExample.jsx")}
+  lang="javascript"
+  showNumbers
+  steps={[
+    { range: [1, 8] },
+    { lines: [1] },
+    { lines: [3] },
+    { lines: [5] },
+    { lines: [7] }
+  ]}
+/>
+
+---
+
+<CodeSurfer
+  title="Todo Example"
+  code={require("!raw-loader!./components/TodoExample.jsx")}
+  lang="javascript"
+  showNumbers
+  steps={[
+    { range: [3, 42] },
+    { lines: [1] },
+    { lines: [3] },
+    { range: [4, 10] },
+    { range: [7, 9] },
+    { range: [22, 41] },
+    { range: [26, 30] },
+    { lines: [26] },
+    { range: [12, 15] },
+    { range: [31, 38] },
+    { lines: [35] },
+    { range: [17, 20] },
+    { range: [1, 45] }
+  ]}
+/>
+
+---
+
+<CodeSurfer
+  title="API Call Example"
+  code={require("!raw-loader!./components/ApiCallExample.jsx")}
+  lang="javascript"
+  showNumbers
+  steps={[
+    { lines: [1] },
+    { range: [3, 38] },
+    { range: [4, 11] },
+    { range: [7, 10] },
+    { range: [24, 37] },
+    { range: [26, 35] },
+    { range: [13, 22] },
+    { range: [1, 41] }
+  ]}
+/>
+
+---
+
+## Create React App
+
+[https://github.com/facebook/create-react-app](https://github.com/facebook/create-react-app)
+
+<ul style={{ textAlign: "left" }}>
+  <Appear>
+    <li>Zero Config</li>
+    <li>Open source and maintened by core React team members</li>
+    <li>One click deployments to Netlify 🎉</li>
+  </Appear>
+</ul>
+
+---
+
+## Tools
+
+Whats doing the heavy lifting?
+
+<ul style={{ textAlign: "left" }}>
+  <Appear>
+    <li>Webpack</li>
+    <li>Babel</li>
+  </Appear>
+</ul>
+
+---
+
+## Learning Resources
+
+<ul style={{ textAlign: "left" }}>
+  <Appear>
+    <li>https://reactjs.org/tutorial/tutorial.html</li>
+    <li>https://ES6.io</li>
+    <li>https://ReactForBeginners.com</li>
+    <li>https://tylermcginnis.com/courses/react-fundamentals/</li>
+    <li>https://tylermcginnis.com/courses/modern-javascript/</li>
+    <li>https://www.pluralsight.com/courses/react-big-picture</li>
+    <li>https://www.pluralsight.com/courses/react-js-getting-started</li>
+  </Appear>
+</ul>
+
+---
+
+## React at Carbon
+
+---
+
+## Wrapping Up
+
+<ul style={{ textAlign: "left" }}>
+  <Appear>
+    <li>These slides were also made with React, using mdx-deck 🎉</li>
+    <li>You can find the full deck on my Github here LINK</li>
+    <li>
+      You can also view the hosted version of this Deck on Netlify here LINK
+    </li>
+  </Appear>
+</ul>
+
+---
+
+# Questions?

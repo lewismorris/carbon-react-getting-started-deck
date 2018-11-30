@@ -1,4 +1,4 @@
-import React, { Fragment, Component } from "react";
+import React, { Component } from "react";
 
 class GithubProfile extends Component {
   constructor(props) {
@@ -25,10 +25,10 @@ class GithubProfile extends Component {
     return (
       <div>
         {this.state.loading ? (
-          <Fragment>
+          <>
             <img src={this.state.data.avatar_url} />
             <h1>{this.state.data.name}</h1>
-          </Fragment>
+          </>
         ) : (
           <p>Loading</p>
         )}

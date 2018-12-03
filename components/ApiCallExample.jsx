@@ -24,9 +24,9 @@ class GithubProfile extends Component {
   render() {
     return (
       <div>
-        {this.state.loading ? (
+        {!this.state.loading ? (
           <>
-            <img src={this.state.data.avatar_url} />
+            <img src={this.state.data.avatar_url} alt={this.state.data.name} />
             <h1>{this.state.data.name}</h1>
           </>
         ) : (

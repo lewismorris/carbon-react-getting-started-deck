@@ -25,8 +25,6 @@ class Todo extends Component {
   };
 
   removeItem = index => {
-    console.log("removeItem");
-
     this.setState(prevState => ({
       items: prevState.items.filter((item, key) => index !== key)
     }));

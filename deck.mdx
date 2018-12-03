@@ -130,8 +130,8 @@ What's doing the heavy lifting?
 
 <div>
   <Appear>
-    <img src="./assets/images/webpack.svg" width="300" />
-    <img src="/assets/images/babel.svg" width="300" />
+    <img src={require("file-loader!./assets/images/webpack.svg")} width="300" />
+    <img src={require("file-loader!./assets/images/babel.svg")} width="300" />
   </Appear>
 </div>
 
